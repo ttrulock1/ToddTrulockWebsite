@@ -813,6 +813,20 @@ padding: 25px 50px 75px 75px;
   /* all of the below make sure  */
 
   @media screen and (max-width:450px){
+    /* Toplinks */
+    #toplinks{
+      margin: 0px;
+    }
+
+    /* here is the menu for the services */
+
+    #jobs{
+      padding: 0px;
+      justify-content: flex-start;
+    }
+    #databasebuilding{
+      display: none;
+    }
 
     *{
       width: 100%;
