@@ -587,9 +587,9 @@ padding: 25px 50px 75px 75px;
 }
 
   .introduction img{
-    width: 12%;
+    /* width: 12%; */
     margin-right: 10px;
-    object-fit: cover;
+    /* object-fit: cover; */
  }
 
   .services2 {
@@ -816,6 +816,8 @@ padding: 25px 50px 75px 75px;
     /* Toplinks */
     #toplinks{
       margin: 0px;
+      box-sizing: content-box;
+      padding: 10px;
     }
 
     /* here is the menu for the services */
@@ -824,13 +826,11 @@ padding: 25px 50px 75px 75px;
       padding: 0px;
       justify-content: flex-start;
     }
-    #databasebuilding{
-      display: none;
-    }
 
+/* 
     *{
       width: 100%;
-    }
+    } */
     .services2{
       display: block;
     }
