@@ -810,8 +810,21 @@ padding: 25px 50px 75px 75px;
 
   }
 
+  /* all of the below make sure  */
+
   @media screen and (max-width:450px){
+
+    *{
+      width: 100%;
+    }
     .services2{
+      display: block;
+    }
+      #photo1 {
+        display: none;
+      }
+    
+    .mainnews{
       display: block;
     }
 
@@ -821,5 +834,25 @@ padding: 25px 50px 75px 75px;
     .blurb{
       width: 100%;
     }
+    #mainnnewsphoto{
+      width: 100%;
+      padding-right: 10px;
+    }
+    .services{
+      display: none;
+    }
 
+    .mainsnewscolumn{
+      margin: auto;
+      padding: 15px;
+    }
+    #bottommenu{
+      display: block;
+    }
+    .bottommenulist{
+      display: block;
+    }
+    #bottomlinks ul{
+      margin-top: -2px;
+    }
   }
