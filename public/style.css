@@ -135,6 +135,7 @@ header {
 
 #toplinks {
   margin: 20px;
+  list-style-type:none
 }
 
 #secondlinks {
@@ -814,6 +815,16 @@ padding: 25px 50px 75px 75px;
   /* all of the below make sure  */
 
   @media screen and (max-width:450px){
+
+   .blurbparent{ 
+    padding-left: 30px;
+    padding-right: 30px;
+   }
+    
+    .blurb p{
+      font-size: 16px;
+    }
+
     /* Toplinks */
     #toplinks{
       margin: 0px;
@@ -858,6 +869,10 @@ padding: 25px 50px 75px 75px;
       padding-right: 10px;
     }
     .services{
+      display: none;
+    }
+
+    .Portfolio{
       display: none;
     }
 
