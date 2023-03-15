@@ -474,8 +474,9 @@ padding: 25px 50px 75px 75px;
   color: black;
   text-align: center;
   padding: 50px;
-  background-image: url("./images/interlaced-orange.png");
+  background-image: url("./images/interlaced-gray.png");
 }
+
 
 .webdevelopment p {
   padding-right: 25px;
@@ -825,6 +826,10 @@ padding: 25px 50px 75px 75px;
     #jobs{
       padding: 0px;
       justify-content: flex-start;
+    }
+
+    #endlogo{
+      width: 100%;
     }
 
 /* 
