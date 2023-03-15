@@ -247,7 +247,6 @@ article ul {
 footer {
   display: flex;
   justify-content: center;
-  padding: 2%;
   background-color: lightgrey;
   color: var(--light);
 }
@@ -820,6 +819,8 @@ padding: 25px 50px 75px 75px;
     padding-left: 30px;
     padding-right: 30px;
    }
+
+
     
     .blurb p{
       font-size: 16px;
@@ -889,4 +890,17 @@ padding: 25px 50px 75px 75px;
     #bottomlinks ul{
       margin-top: -2px;
     }
+
+    /* website page*/
+
+    /* .webdevelopment p {
+      padding-right: 0px;
+      padding-left: 0px;
+  }
+
+  .webdevelopmenttext {
+    background-color: none;
+    margin: 5px;
+} */
+
   }
