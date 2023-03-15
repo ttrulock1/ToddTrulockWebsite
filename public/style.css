@@ -410,16 +410,14 @@ padding: 25px 50px 75px 75px;
   display: flex;
   justify-content:space-evenly;
   width: 100%;
-
 }
 
 #endlogo{
-  color: black;
   padding-left: 50px;
   background-color: lightgray;
   max-width: 400px;
   padding-right: 40px;
-  font-size: 12pt;
+  padding-top: 2px;
 }
 
 .bottommenulist {
@@ -818,6 +816,10 @@ padding: 25px 50px 75px 75px;
    .blurbparent{ 
     padding-left: 30px;
     padding-right: 30px;
+   }
+
+   .endlogo{
+     margin: -2px;
    }
 
 
