@@ -845,9 +845,6 @@ a {
    height: 100%;
 }
 
-
-
-
 /* Hamburger */
 .hamburger1 {
   height: 45px;
@@ -956,7 +953,6 @@ a {
       padding: 0px;
     }
 
-
    .blurbparent{ 
     padding-left: 30px;
     padding-right: 30px;
@@ -965,8 +961,6 @@ a {
    .endlogo{
      margin: -2px;
    }
-
-
     
     .blurb p{
       font-size: 16px;
@@ -1056,6 +1050,10 @@ a {
 
     .aboutmoccasintext2 {
       padding-right: 15px;
+    }
+
+    #moccasintextp{
+      display: none;
     }
 
     /* website page*/
