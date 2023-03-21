@@ -9,18 +9,15 @@
   <link rel="icon" href="./public/images/MyLogo(Transparent).png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 
-  <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+  <link rel="stylesheet" href="./public/slidingmarque.css" />
+
 </head>
 
 <body> 
 
   <h1 class="app-title">
-    <!-- The `<i>` element is for icons. These classes come from the Font Awesome font icon library. -->
   </h1>
 
-   <!-- this is the physical heading of my code, and I am working to upload a phorot with a nice heading to the portfolio website  -->
   <header>
       <!-- <div id= "logo"> -->
         <img src="./public/images/MyLogo(Transparent).png" id="logo">
@@ -122,7 +119,9 @@
     </section>
   </div>
 </section>
-<section class="blurbparent">
+
+
+<!-- <section class="blurbparent">
     <section class="blurb">
         <h1>Testimonials</h1>
           <p>
@@ -133,7 +132,39 @@
           <p><a href="/testimonials.html">Click here to read testimonials.</a></p>
       
     </section>
-  </section>
+  </section> -->
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="./public/images/.png" style="width:100%">
+      <div class="text">When we went to Moccasin House, we took our jewelry company from a traveling business to a hybrid business. The business we do online is every bit as equal as to what we are doing on the road. We are able to make money and pick and choose the road shows we want to do ~ Benjamin Zinn </div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="./public/images/cozyhouse.jpeg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="./public/images/wall.png" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
 
 
 
@@ -311,6 +342,7 @@
           </section>
         </div>
   </section>
+  <script src="script.js"></script>
 
  <footer class= "footer">
   </footer>
