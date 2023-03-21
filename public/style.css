@@ -895,7 +895,7 @@ a {
 }
 
 #toggle1:checked ~ .menu1 {
-  height: 340px;
+  height: 360px;
 }
 
 
@@ -948,10 +948,14 @@ a {
   /* all of the below make sure  */
 
   @media screen and (max-width:450px){
+    #secondlinks{
+      display: none;
+    }
 
     .services4{
-      padding: 0px
+      padding: 0px;
     }
+
 
    .blurbparent{ 
     padding-left: 30px;
@@ -973,6 +977,9 @@ a {
       margin: 0px;
       box-sizing: content-box;
       padding: 10px;
+    }
+    #link1{
+      margin-bottom: 100px;
     }
 
     /* here is the menu for the services */
