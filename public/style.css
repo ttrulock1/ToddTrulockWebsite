@@ -48,6 +48,16 @@ header {
   width: 300px;
 }
 
+.aboutmoccasintext{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  /* background-image: url("./images/SEO.png"); */
+}
+
+
+
+
 #jobs{
   flex-direction:row ;
   justify-content: space-between;
@@ -406,6 +416,29 @@ padding: 25px 50px 75px 75px;
   text-align: center;
   font-size: 20px;
 }
+
+.cellblurb{
+  background-color: #FF8200;
+  margin: 0px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;  
+  margin: auto;
+  width: 60%;
+  display: none;
+}
+
+.cellblurb h1{
+  text-align: center;
+  padding: 10px;
+  font-size:30px;
+}
+
+.cellblurb p {
+  text-align: center;
+  font-size: 20px;
+}
+
 
 .links1{
   display: flex;
@@ -1034,8 +1067,6 @@ a {
     .hamburger1{
       display: grid;
     }
-
-
     /* WhoWeAre Styling */
     /*  */
     .aboutmoccasintitle{
@@ -1068,4 +1099,7 @@ a {
     margin: 5px;
     }    */
 
+    .slideshow-container{
+      display: none;
+    }
   }
