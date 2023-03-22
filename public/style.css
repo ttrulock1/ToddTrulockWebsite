@@ -82,7 +82,7 @@ header {
 .mainnews {
   display: flex;
   justify-content:space-evenly;
-  background-color: #C19A6B;
+  background-color: #4cbfa6;
   /* background-color: #FFF6EA */
   color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
