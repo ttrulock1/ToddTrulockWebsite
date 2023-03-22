@@ -91,14 +91,22 @@ header {
 .SEONews {
   display: flex;
   justify-content:space-evenly;
-  background-color: darkblue;
-  /* background-color: #FFF6EA */
-  color: whitesmoke;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 #LFCJobs{
   padding-top: 25px;
+}
+
+#SEOOptimization{
+  padding: 25px 0px 25px 25px;
+}
+
+#Seophoto{
+  display: block;
+  overflow: auto;
+  size:550px
 }
 
 .mainnews button{
@@ -928,6 +936,11 @@ a {
   height: 360px;
 }
 
+#SEOCharttitle{
+  color: #21ad84;
+  font-size: 60px;
+}
+
 
 /* hamburger Menu */
 .menu1 {
@@ -1074,6 +1087,9 @@ a {
       flex-direction: row
     }
 
+  #Seophoto{
+    display: none;
+  }
     .aboutmoccasintext{
       display: flex;
       flex-direction: column
