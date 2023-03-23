@@ -27,6 +27,8 @@ header {
   background-repeat: repeat ;
 }
 
+
+
 .aboutmoccasin{
   background-color: white;
   display: flex;
@@ -511,6 +513,13 @@ padding: 25px 50px 75px 75px;
   color: #f37738;
 }
 
+.aboutmetitle12
+{
+  font-size: 140px;
+}
+
+
+
 .footer a {
   color: #f37738;
   text-decoration: none;
@@ -991,6 +1000,16 @@ a {
   /* all of the below make sure  */
 
   @media screen and (max-width:450px){
+    .aboutmetitle12
+    {
+      color:#f37738
+    }
+
+    .SEONews{
+      /* display: grid; */
+      flex-direction: column-reverse;
+    }
+
     #secondlinks{
       display: none;
     }
