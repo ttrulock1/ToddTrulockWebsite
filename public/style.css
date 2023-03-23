@@ -541,7 +541,7 @@ padding: 25px 50px 75px 75px;
 }
 
 .webdevelopment img{
-  width: 200px;
+  width: 100%;
 }
 
 .codebasebaseddev{
@@ -1033,6 +1033,10 @@ a {
       width: 100%;
     }
 
+    .webdevelopmenttext {
+      margin: 0px;
+    }
+
 
     .services2{
       display: block;
@@ -1104,16 +1108,23 @@ a {
     }
 
     /* website page*/
+    .wordpress .codebasebaseddev{
+      width: 100%;
+    }
+    
   
-    /* .webdevelopment p {
-      padding-right: 0px;
-      padding-left: 0px;
+  .webdevelopment {
+    padding:0px
    }
+   .webdevelopment p {
+    padding:0px
+   }
+
 
    .webdevelopmenttext {
     background-color: none;
     margin: 5px;
-    }    */
+    }  
 
     .slideshow-container{
       display: none;
