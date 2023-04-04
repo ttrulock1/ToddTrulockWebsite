@@ -1,0 +1,25 @@
+{
+  "name": "todd",
+  "version": "1.0.0",
+  "description": "later you need to fill this end.",
+  "main": "script.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3",
+    "stripe": "^11.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttrulock1/LFAZdotORG.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttrulock1/LFAZdotORG/issues"
+  },
+  "homepage": "https://github.com/ttrulock1/LFAZdotORG#readme"
+}
