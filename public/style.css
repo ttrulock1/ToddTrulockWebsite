@@ -67,6 +67,13 @@ header {
   font-family:Arial, Helvetica, sans-serif ;
 }
 
+.jobs{
+  flex-direction:row ;
+  justify-content: space-between;
+  padding: 30px;
+  font-family:Arial, Helvetica, sans-serif ;
+}
+
 #bottomlinks{
   flex-direction:row ;
   justify-content: space-between;
@@ -322,6 +329,10 @@ background-color:#f37738
 }
 
 #jobs a{
+  text-decoration: none;
+}
+
+.jobs a{
   text-decoration: none;
 }
 
@@ -732,6 +743,14 @@ padding: 25px 50px 75px 75px;
     .Portfolio a{
       width:100%;
     }
+
+    #database{
+      display: none;
+    }
+
+    main, .services4{
+      display: block;
+    }
   }
 
   .portfoliotitle{
@@ -779,6 +798,9 @@ padding: 25px 50px 75px 75px;
     text-align: center;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
   }
+
+ 
+
   .wrapper .top{
     display: flex;
     justify-content: center;
@@ -867,7 +889,7 @@ padding: 25px 50px 75px 75px;
     height: 18px;
   }
 
-  #jobs, #bottomlinks, #blog1, #blog2, #blog3{
+  .jobs, #jobs, #bottomlinks, #blog1, #blog2, #blog3{
     flex-direction: column;
 
   }
@@ -1044,6 +1066,11 @@ a {
     /* here is the menu for the services */
 
     #jobs{
+      padding: 0px;
+      justify-content: flex-start;
+    }
+
+    .jobs{
       padding: 0px;
       justify-content: flex-start;
     }
