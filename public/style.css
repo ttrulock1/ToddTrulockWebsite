@@ -383,7 +383,8 @@ background-color:#f37738
 
 #topborder{
 position: relative;
-background-color: #ffef13e7;
+/* background-color: #ffef13e7; */
+background-color: #FF8200;   
 height: 15px;
 float: left;
 width: 100%;
@@ -394,22 +395,29 @@ display: flex;
 
 #topborder .color1{
   width: 14.893617%;
-  background-color: #804088;
+  /* background-color: #ff000d; */
+  background-color: #FF8200;   
+
 }
 
 #topborder .color2{
   width: 17.0212765%;
-  background-color: #d11111;
+  /* background-color: #d11111; */
+  background-color: #FF8200;   
+
 }
 
 #topborder .color3{
 width: 10.6382978%;
-background-color: #f37738;
+/* background-color: #f37738; */
+background-color: #FF8200;   
 }
 
 #topborder .color4{
   width: 6.38297872%;
-  background-color: #ffd726;
+  /* background-color: #ffd726; */
+  background-color: #FF8200;   
+
 }
 
 .blurbparent{
